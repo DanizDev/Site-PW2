@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela de Login </title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login" onsubmit="logar(event)">
+
+                <h3> Login </h3>
+                <input type="text" placeholder="Usuário" id="usuario" required="true" 
+                minlength="3" maxlength="15">
+
+                <input type="password" placeholder="Senha" id="senha" required="true" 
+                minlength="3" maxlength="8">
+
+                <input type="submit" value="Logar" onclick="logar(); return false;">
+            </form>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
