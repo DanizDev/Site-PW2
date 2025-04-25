@@ -23,7 +23,12 @@ function logar(event) {
 
     }else{
 
-        alert("Usuário ou Senha inválidos");
+        Swal.fire({
+            title: 'Login não realizado',
+            text: 'Dados incorretos!!!!',
+            icon: 'error',
+            confirmButtonText: 'Tente Novamente!'
+        });
     }
 
 }

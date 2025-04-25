@@ -18,13 +18,18 @@ function cadastrar(event) {
             confirmButtonText: 'OK'
         }).then(() => {
             setTimeout(() => {
-                location.href= "../login-Pw1/index.html";
+                location.href= "./index.html";
             }, 100);
         });
 
     }else{
 
-        alert("Usuário ou Senha inválidos");
+        Swal.fire({
+            title: 'Login não realizado',
+            text: 'Dados incorretos!!!!',
+            icon: 'error',
+            confirmButtonText: 'Tente Novamente!'
+        });
     }
 
 }
