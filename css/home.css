@@ -1,8 +1,6 @@
 body{
-    background-color:rgb(34, 34, 34);
+    background-color:white;
     color: white;
-    margin: 0 auto;
-    max-width: 1380px;
     padding: 15px;
 }
 
@@ -10,7 +8,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(247, 216, 216);
 }
 
 .titulo{
@@ -23,12 +21,14 @@ li{
 }
 
 .titulo h1{
+    margin-left: 220px;
     font-weight: 200;
     color: black;
 }
 
 h2{
-    color: white;
+    margin-left: 250px;
+    color: black;
     font-family: JetBrains Mono ExtraBold;
     font-size: 40px;
 }
@@ -39,13 +39,14 @@ main{
     color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    height: 400px;
     justify-content: space-between;
 }
 
 article img{
+    margin-top: 1px;
     width: 500px;
-    height: 300px;
+    height: 395px;
     border-radius: 100px;
 }
 
@@ -65,7 +66,7 @@ button:hover{
 }
 
 .elemento-lista{
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 i{
@@ -73,7 +74,8 @@ i{
 }
 
 main h1, p, button{
-    margin-left: 100px;
+    margin-left: 220px;
+
 }
 
 span{
@@ -81,13 +83,13 @@ span{
 }
 .icon{
     font-size: 2.0rem;
-    margin-left: 680px;
+    margin-left: 900px;
     color: black;
 }
 .bloco-meio{
     font-size: 26px;
-    margin-left: 410px;
-    color: white;
+    margin-left: 500px;
+    color: black;
     font-family: JetBrains Mono NL Thin;
 }
 
@@ -111,7 +113,8 @@ a:hover{
 }
 
 h3{
-    color: white;
+    margin-left: 250px;
+    color: black;
     font-family: JetBrains Mono ExtraBold;
     font-size: 26px;
 }
@@ -125,4 +128,13 @@ h3{
 #inscreva-se-btn:hover{
     background-color: rgb(132, 14, 201);
     color: white;
+}
+
+main h1{
+    margin-top: 120px;
+}
+
+.btn-2{
+    margin-left: 100px;
+    color: black;
 }

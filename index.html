@@ -5,23 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tela de Login </title>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+
 </head>
 <body>
 
+    <div class="cabecario">
+        <header>
+            <h1>INIT TATTOO</h1>
+            <ul>
+                 <li>Precisa de uma conta?</li>
+                 <a href="./indexo.html"><button><li>Cadastre-se</li></button></a>
+             </ul>
+        </header>
+    </div>
+    
     <div class="container-principal">
         <div class="formulario">
             <form id="form-login" onsubmit="logar(event)">
 
                 <h3> Login </h3>
+                <hr>
+                <h4>Bem vindo de volta! Logue em sua conta.</h4>
+                
                 <input type="text" placeholder="Usuário" id="usuario" required="true" 
                 minlength="3" maxlength="15">
 
                 <input type="password" placeholder="Senha" id="senha" required="true" 
                 minlength="3" maxlength="8">
 
+                <h4><a href="#"> Esqueceu sua senha? </a></h4>
+
                 <input type="submit" value="Logar" onclick="logar(); return false;">
             </form>
-        </div>
+        </div>    
     </div>
     <script src="./js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
