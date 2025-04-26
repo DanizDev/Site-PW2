@@ -21,15 +21,6 @@ function cadastrar(event) {
                 location.href= "./index.html";
             }, 100);
         });
-
-    }else{
-
-        Swal.fire({
-            title: 'Login não realizado',
-            text: 'Dados incorretos!!!!',
-            icon: 'error',
-            confirmButtonText: 'Tente Novamente!'
-        });
     }
 
 }
