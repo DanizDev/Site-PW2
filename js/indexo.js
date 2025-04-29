@@ -6,6 +6,7 @@ function cadastrar(event) {
     var usuario = document.getElementById("usuario").value;
     var senha = document.getElementById("senha").value;
     var email = document.getElementById("email").value;
+    var nome = document.getElementsById("email").value;
 
     //Daniz.Dev - 123456 - seilaman2@gmail.com
     

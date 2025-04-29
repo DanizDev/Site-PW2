@@ -14,14 +14,14 @@
             <a href="./html/home.html"><h1>INIT TATTOO</h1></a>
             <ul>
                  <li>Precisa de uma conta?</li>
-                 <a href="./indexo.html"><button><li>Cadastre-se</li></button></a>
+                 <a href = "./indexo.html"><button><li>Cadastre-se</li></button></a>
              </ul>
         </header>
     </div>
     
     <div class="container-principal">
         <div class="formulario">
-            <form id="form-login" onsubmit="logar(event)">
+            <form id="form-login" action="./php/login.php" method="POST">
 
                 <h3> Login </h3>
                 <hr>
@@ -35,7 +35,7 @@
 
                 <h4><a href="#"> Esqueceu sua senha? </a></h4>
 
-                <input type="submit" value="Logar" onclick="logar(); return false;">
+                <input type="submit" value="Logar">
             </form>
         </div>    
     </div>
